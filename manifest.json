@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "blank-page",
+  "version": "1.0",
+  "description": "Creates a new tab with some boilerplate HTML/CSS code for experimenting stuff with DevTools",
+  "icons": {
+    "48": "icons/blank-page-48.png",
+    "96": "icons/blank-page-96.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/blank-page-16.png",
+      "32": "icons/blank-page-32.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
